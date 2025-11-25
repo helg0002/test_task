@@ -15,11 +15,11 @@ pip install -r requirements.txt
 
 ### 2. Запустить сервер
 ```bash
-uvicorn api.main:app --reload
+uvicorn main:app --reload
 ```
 
 
-## 🐳 Запуск через Docker
+##  Запуск через Docker
 
 ### 1. Собрать образ
 ```bash
